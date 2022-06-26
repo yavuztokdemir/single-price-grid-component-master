@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  font-family: 'Karla', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(204, 43%, 93%);
+  line-height: 2;
+}
+
+.container
+{
+  max-width: 45%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.community
+{
+  padding: 40px;
+  background: white;
+  border-radius: 12px 12px 0 0;
+}
+
+.par-com
+{
+  width: 90%;
+  color: hsl(218, 22%, 67%);
+}
+
+
+.pr-price
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.price-reason
+{
+  padding: 40px;
+  background-color: hsl(179, 62%, 43%);
+  border-radius: 0 0 12px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.reason
+{
+  padding-right: 60px;
+  color: white;
+}
+
+.per-month
+{
+  padding-right: 70px;
+}
+
+h2
+{
+  padding: 10px 0;
+  color: hsl(179, 62%, 43%);
+}
+
+h3
+{
+  padding: 10px 0;
+}
+
+.btn
+{
+  background: hsl(71, 73%, 54%);
+  background-image: -webkit-linear-gradient(top, hsl(71, 73%, 54%), hsl(71, 73%, 54%));
+  background-image: -moz-linear-gradient(top, hsl(71, 73%, 54%), hsl(71, 73%, 54%));
+  background-image: -ms-linear-gradient(top, hsl(71, 73%, 54%), hsl(71, 73%, 54%));
+  background-image: -o-linear-gradient(top, hsl(71, 73%, 54%), hsl(71, 73%, 54%));
+  background-image: linear-gradient(to bottom, hsl(71, 73%, 54%), hsl(71, 73%, 54%));
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 8px;
+  font-family: Arial;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+  height: 55px;
+  width: 100%;
+}
+
+.bn
+{
+  padding-top: 20px;
+}
+
+.day
+{
+  color: hsl(71, 73%, 54%);
+}
+
+.price
+{
+  color: white;
+}
